@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Digi as a service</title>
+  <link rel="stylesheet" href="static/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class=>Which article do you need?</h1>
+      <form method="POST" action = "/">
+        <input type="text" placeholder="https://www.digi.no/artikler/huawei-ber-domstol-i-usa-fjerne-forbud/466433" name="full_url">
+        <input class="btn btn-primary" type="submit" value="submit">
+      </form>
+      {% if resolved_url %}
+        Result
+      {% endif %}
+    </div>
+  </body>
+</html>

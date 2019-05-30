@@ -1,0 +1,17 @@
+body {
+    background: #165299;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+    background: #1b6cff;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
