@@ -9,11 +9,12 @@
     <div class="container">
       <h1 class=>Which article do you need?</h1>
       <form method="POST" action = "/">
-        <input type="text" placeholder="https://www.digi.no/artikler/huawei-ber-domstol-i-usa-fjerne-forbud/466433" name="full_url">
         <input class="btn btn-primary" type="submit" value="submit">
+        <input type="text" placeholder="https://www.digi.no/artikler/huawei-ber-domstol-i-usa-fjerne-forbud/466433" name="full_url", value="https://www.digi.no/artikler/dansk-oppfinnelse-spriter-opp-fiberforbindelsen/465158">
       </form>
       {% if resolved_url %}
         Result
+      <a href="{{resolved_url}}">{{resolved_url}}</a>
       {% endif %}
     </div>
   </body>
